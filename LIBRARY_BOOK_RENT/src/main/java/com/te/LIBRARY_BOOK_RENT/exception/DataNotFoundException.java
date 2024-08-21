@@ -1,0 +1,9 @@
+package com.te.LIBRARY_BOOK_RENT.exception;
+
+@SuppressWarnings("serial")
+public class DataNotFoundException extends RuntimeException {
+
+	public DataNotFoundException(String msg) {
+		super(msg);
+	}
+}
